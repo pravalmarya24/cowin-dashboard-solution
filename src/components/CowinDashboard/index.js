@@ -98,6 +98,7 @@ class CowinDashboard extends Component {
         alt="failure view"
         className="failure-view-size"
       />
+      <h1 className="co-win-heading">Something went wrong</h1>
     </div>
   )
 
@@ -127,7 +128,7 @@ class CowinDashboard extends Component {
           />
           <h1 className="co-win-heading">Co-WIN</h1>
         </div>
-        <p className="co-win-vaccination-para">CoWin Vaccination in India</p>
+        <h1 className="co-win-vaccination-para">CoWin Vaccination in India</>
         {this.renderView()}
       </div>
     )
