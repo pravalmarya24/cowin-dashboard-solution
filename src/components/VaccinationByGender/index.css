@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.pie-chart-bg-container {
+  background-color: #1c1c2b;
+  height: 400px;
+  width: 400px;
+}
+
+.vacci-by-gender {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #cbd5e1;
+}

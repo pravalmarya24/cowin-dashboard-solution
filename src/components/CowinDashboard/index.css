@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.cowin-dashboard-bg-container {
+  background-color: #161625;
+  height: 100vh;
+  background-size: cover;
+  padding-top: 30px;
+  padding-left: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-size {
+  height: 55px;
+  width: 55px;
+}
+
+.co-win-heading {
+  font-family: 'Roboto';
+  font-size: 27px;
+  font-weight: 500;
+  color: #2cc6c6;
+  padding-left: 18px;
+}
+
+.co-win-vaccination-para {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 500;
+  color: #cbd5e1;
+  margin-top: 20px;
+}
+
+.failure-view-size {
+  height: 400px;
+  width: 550px;
+}
+
+.failure-view-container {
+  display: flex;
+  align-self: center;
+}
+
+.loader-container {
+  display: flex;
+  align-self: center;
+}
