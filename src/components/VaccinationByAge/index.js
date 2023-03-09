@@ -7,15 +7,14 @@ const VaccinationByAge = props => {
   return (
     <div className="pie-chart-bg-container">
       <h1 className="vacci-by-gender">Vaccination by age</h1>
-      <PieChart width="100%" height={300}>
+      <PieChart width={1000} height={300}>
         <Pie
-          cx="70%"
-          cy="40%"
-          startAngle={0}
-          endAngle={180}
+          data={vaccinationByAgeData}
+          cx="50%"
+          cy="50%"
           innerRadius="40%"
           outerRadius="70%"
-          dataKey={vaccinationByAgeData.age}
+          dataKey="count"
         >
           <Cell name="18-44" fill="#5a8dee" />
           <Cell name="44-60" fill="#a3df9f" />
@@ -23,8 +22,9 @@ const VaccinationByAge = props => {
           <Legend
             iconType="circle"
             layout="vertical"
-            verticalAlign="middle"
-            align="right"
+            verticalAlign="bottom"
+            align="center"
+            wrapperStyle={{fontSize: 12, fontFamily: 'Roboto'}}
           />
         </Pie>
       </PieChart>

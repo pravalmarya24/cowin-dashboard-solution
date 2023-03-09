@@ -53,7 +53,7 @@ class CowinDashboard extends Component {
         count: each.count,
       }))
 
-      console.log(newVaccinationByGenderData)
+      console.log(newVaccinationByCoverageData)
 
       this.setState({
         apiStatusUpdates: apiStatus.success,
