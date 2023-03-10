@@ -33,7 +33,7 @@ const VaccinationCoverage = props => {
           }}
         />
         <YAxis
-          dataKey={dataFormatted}
+          tickFormatter={dataFormatted}
           tick={{
             stroke: '#6c757d',
             strokeWidth: 0.5,
